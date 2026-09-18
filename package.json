@@ -1,0 +1,20 @@
+{
+  "name": "korea-tax-law-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Korean tax law search - taxlaw.nts.go.kr (국세법령정보시스템) + open.law.go.kr (국가법령정보센터)",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "korea-tax-law-mcp": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.24.0"
+  }
+}

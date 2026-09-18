@@ -1,0 +1,9 @@
+# 프로젝트 파일만 추적한다
+/*
+!/.gitignore
+!/server.js
+!/env-file.mjs
+!/package.json
+!/package-lock.json
+!/README.md
+.env
